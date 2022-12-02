@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #2a80b9;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#block {
+    background-color: white;
+    border: solid 1px lightgrey;
+    border-radius: 5px;
+    width: 650px;
+    height: 250px;
+}
+
+#button {
+    cursor: pointer;
+    width: 130px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 20px;
+    position: absolute;
+    border: 0;
+    border-radius: 2px;
+    font-size: 22px;
+    font-weight: 550;
+}
+
+.input {
+    margin-top: 30px;
+    margin-left: 25px;
+    height: 70px;
+    width: 450px;
+    font-size: 21px;
+    background-color: #FFFFFF;
+    border-style: hidden;
+    border-bottom: solid 4px black;
+}
+
+.input:focus {
+    outline: none;
+}
+
+#buttons {
+    margin-top: 25px;
+}
+
+#Pos {
+    cursor: pointer;
+    margin-left: 25px;
+    border: 0;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 550;
+    color: grey;
+}
+#Pos:hover{
+    color: black;
+}
+
+#Neg {
+    cursor: pointer;
+    margin-left: 20px;
+    border: 0;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 550;
+    color: grey;
+}
+#Neg:hover{
+    color: black;
+}
+
+#Neu {
+    cursor: pointer;
+    margin-left: 20px;
+    border: 0;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 550;
+    color: rgb(116, 106, 106);
+}
+#Neu:hover{
+    color: black;
+}
+
+#result {
+    margin-top: 30px;
+    margin-left: 25px;
+    font-family: sans-serif;
+    font-weight: 550;
+    font-size: large;
+}
+
+/* background #2a80b9, text non selec #cbcac9, text dans la barre de saisie #6c6d6e */
